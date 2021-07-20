@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MessageController {
 
-    @GetMapping("/")
+    @GetMapping("/getMessage")
     public String getInitialMessage(){
         return "Application deployed successfully";
     }
