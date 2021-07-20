@@ -49,5 +49,5 @@ jobs:
       with:
         app-name: 'springboot-grbn'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_76ac9724c9a442b7a944f7f5d79a4940 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e6de70e3fd3a4f32bd114bc271018f99 }}
         package: '*.jar'
